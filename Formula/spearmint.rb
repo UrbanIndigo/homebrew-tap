@@ -1,25 +1,25 @@
 class Spearmint < Formula
   desc "CLI tool to sync developer products and gamepasses to Roblox"
   homepage "https://github.com/UrbanIndigo/spearmint"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.2/spearmint-aarch64-apple-darwin.tar.xz"
-      sha256 "f3ea3176e1f88ae0c08a65f0abf09987fa4d657a84c60a6ee69623164722a754"
+      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.3/spearmint-aarch64-apple-darwin.zip"
+      sha256 "edf7d890558ceae7610cada69811b4e742c4ad7046309019a533032319d112c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.2/spearmint-x86_64-apple-darwin.tar.xz"
-      sha256 "71fbd0519f430ca00658e540dee12d6767ee5b06d858b0fdf8a0fd7a495f57de"
+      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.3/spearmint-x86_64-apple-darwin.zip"
+      sha256 "c80c330f94beaf98b2497c40d47b9033ea0408e793213517b34abf07b6d1b3d9"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.2/spearmint-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a423bd183f726c331b81eba7d4c85c00988f577af0efc193a3aaee837061e684"
+      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.3/spearmint-aarch64-unknown-linux-gnu.zip"
+      sha256 "33967497722494c5d290d013f12a1cf4125c5989fa0433910f0e84d3593735e5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.2/spearmint-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6582e21a0f04ebddeaf4f80ad546bedb7d7785f512c7a342d9e8ed42286fda37"
+      url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.3/spearmint-x86_64-unknown-linux-gnu.zip"
+      sha256 "765d59a7c825194ff23d5cfeec3b85888dbfbebbb1ec3811aad4a6e4c5f3400c"
     end
   end
   license "MIT"
