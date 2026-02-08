@@ -5,21 +5,21 @@ class Spearmint < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.6/spearmint-aarch64-apple-darwin.zip"
-      sha256 "79003ba55be498d2761d0d9e845a43fc818829660bed06b756b05e65b8142456"
+      sha256 "859690b29b945b49aa3ffe4500e59fb35d0f42f0c1b959879eccf09d9da844fd"
     end
     if Hardware::CPU.intel?
       url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.6/spearmint-x86_64-apple-darwin.zip"
-      sha256 "c2a6129605b54ed9394fb8a18eb4cffdc0ee229f57421cecff463cb3f8062257"
+      sha256 "57eeba4af9a5de965cd1a14b62c0405b786f95fae0232f6498723d591ad1e08a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.6/spearmint-aarch64-unknown-linux-gnu.zip"
-      sha256 "fbee7a3d4dd4de702fa762c1705d4839dde2e7b69a878a0ff04ee7ad4ebb6036"
+      sha256 "480d97122dbd7ba405e329c6c92316401f436f0ce9ba265d9ef805c50f4bd8c6"
     end
     if Hardware::CPU.intel?
       url "https://github.com/UrbanIndigo/spearmint/releases/download/v0.1.6/spearmint-x86_64-unknown-linux-gnu.zip"
-      sha256 "b7faa55e0e682bd4baf970eaedc87f1f22b4c94a3e89f30c404af52e12d41cfd"
+      sha256 "22ec134b9b328b1bcb7c362e85ad02abee11dbced2c178fd2097bc6b78ead451"
     end
   end
   license "MIT"
